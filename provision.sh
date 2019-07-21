@@ -9,7 +9,7 @@ dpkg -s unzip &>/dev/null || {
 if [ ! -f /usr/local/bin/consul ]; then
 	cd /usr/local/bin
 
-	version='0.8.0'
+	version='1.5.2'
 	wget https://releases.hashicorp.com/consul/${version}/consul_${version}_linux_amd64.zip -O consul.zip
 	unzip consul.zip
 	rm consul.zip

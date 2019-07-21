@@ -4,8 +4,9 @@ Creates a cluster of three VMs with one Consul server (192.168.99.100) and two r
 
 ## Prerequisites
 
-- Vagrant (tested on 1.9.3)
-- VirtualBox (tested on 5.0.30)
+- Vagrant (tested on 2.2.5)
+- VirtualBox (tested on 6.0.10)
+- Consul version 1.5.2
 
 ## How to Start
 
